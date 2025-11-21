@@ -5,15 +5,16 @@ internal class Program
     static void Main(string[] args)
     {
         Program program = new Program();
-        program.Question1();
+       // program.Question1();
         //a function about running, a string because it's text
         //it's a program, and the name is program
         //I assume the return would be either a string or a bool
-        program.Question2();
-        program.Question3();
-        program.Question4();
-        program.Question5();
-        program.Question6();
+        //.Question2();
+       // program.Question3();
+       // program.Question4();
+        //program.Question5();
+        //program.Question6();
+        program.Question7();
     }
         internal void Question1()
      {
@@ -60,4 +61,13 @@ internal class Program
     {
         Console.WriteLine("This is now the start of my program");
     }
+    internal string Question7()
+     {
+        Console.WriteLine("How long do you think you'll last in a zombie apocalypse?");
+        string awnser = Console.ReadLine();
+
+        return awnser;
+        string awnser7 = Question7();
+        Console.WriteLine(awnser7);
+     }
 }
