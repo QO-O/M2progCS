@@ -7,7 +7,7 @@ class QuizVraag
 
     internal QuizVraag(string vraag, string antwoord)
     {
-        this.vraag = QuizVraag;
+        this.vraag = vraag;
         this.antwoord = antwoord;   
     }
 }
