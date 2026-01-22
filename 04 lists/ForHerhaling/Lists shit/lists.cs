@@ -32,8 +32,24 @@ class Program
         {
             Console.WriteLine(character);
         }
-    }
 
+       
+    }
+    internal void Remove()
+    {
+         List<double> reviews = new List<double>() { 9.99, 4.68, 342.97, 12.2 };
+         for (int i = 0; i < reviews.Count; i++)
+        {
+            Console.WriteLine(reviews[i]);
+        }
+        reviews.Remove(342.97);
+        reviews.RemoveAt(0);
+
+        foreach(double review in reviews)
+        {
+            Console.WriteLine(review);
+        }
+    }
     internal void Run()
     {
         
